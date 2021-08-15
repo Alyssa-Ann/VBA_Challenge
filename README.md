@@ -62,7 +62,8 @@ Stock Analysis with refactored Code for increased efficiency
 	
 
 ### Disadvantage of Refactoring Code
-	As with most editing, refactoring a code comes with distinct disadvantages. If one coder is trying to
+	As with most editing, refactoring a code comes with distinct disadvantages. If one coder is
+	trying to
   refactor a code written by another, they may be thinking in opposing logic. This can create errors
   within the code which makes the coder have to go back and debug the code multiple times. Refactoring a
   code also leads to the potential of taking a stable code and making it severely unstable by cutting
@@ -71,7 +72,8 @@ Stock Analysis with refactored Code for increased efficiency
 	
 
 ### Relevancy fo Pros and Cons Concerning Refactoring the Original VBA Code
-	In terms of this project, the original code was a nested for loop. This loop had to output all current
+In terms of this project, the original code was a nested for loop. This loop had to output all
+current
   data each time it looped, resulting in numerous repetitions of the same loop. The refactored code had
   one loop for the data and another output loop for the datasets which reduced the amount of times it
   had to be repeated to get the same results. This is advantagous because reducing the loops decreases
